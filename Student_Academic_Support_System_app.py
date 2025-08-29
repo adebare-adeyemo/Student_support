@@ -4,7 +4,7 @@ import joblib
 import traceback
 
 # Load pipeline (model + encoder combined)
-pipeline = joblib.load(r"C:\Users\adeye\Downloads\Student_Risk_Advisor_Package\student_risk_pipeline_balanced.pkl")
+pipeline = joblib.load("student_risk_pipeline_balanced.pkl")
 
 st.set_page_config(page_title="Student Academic Support System", layout="wide")
 st.title("🎓 Student Academic Support System ")
